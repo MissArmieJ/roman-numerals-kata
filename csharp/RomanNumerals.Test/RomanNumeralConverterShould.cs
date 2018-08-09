@@ -26,8 +26,7 @@ namespace RomanNumerals.Test
         [TestCase(3999, "mmmcmxcix")]
         public void convert_arabic_number_to_roman_numeral(int arabicNumber, string expectedRomanNumeral)
         {
-            string romanNumeral = RomanNumeralConverter.RomanNumeralFor(arabicNumber);
-            Assert.AreEqual(expectedRomanNumeral, romanNumeral);
+            Assert.AreEqual(expectedRomanNumeral, RomanNumeralConverter.RomanNumeralFor(arabicNumber));
         }
     }
 }

@@ -2,3 +2,6 @@
 bin/
 obj/
 packages/
+build/
+.gradle/
+out/

@@ -25,6 +25,9 @@ dependencies {
 
     runtime "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
     runtime "org.junit.platform:junit-platform-console:$junitPlatformVersion"
+
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.10.0'
+
 }
 
 apply from: "junit5.gradle"
